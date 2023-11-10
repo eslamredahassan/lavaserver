@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: blitzapp
+    env: node
+    plan: starter
+    buildCommand: npm i
+    startCommand: ./start.sh
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: SESSION_SECRET_KEY
+        generateValue: true

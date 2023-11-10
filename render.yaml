@@ -3,7 +3,6 @@ services:
     name: blitzapp
     env: node
     plan: starter
-    buildCommand: npm i
     startCommand: ./start.sh
     envVars:
       - key: NODE_ENV

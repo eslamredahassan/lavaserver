@@ -1,3 +1,3 @@
 java -version
-npm i
+npm i install
 node index
